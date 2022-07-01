@@ -64,3 +64,9 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+/public
+.DS_Store
+.env
+.hugo_build.lock
+/resources/_gen/assets

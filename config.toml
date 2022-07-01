@@ -1,4 +1,4 @@
-baseURL = 'https://ejwritesnowdotcom.web.app/'
+baseURL = 'https://www.ejwritesnow.com/'
 languageCode = 'en-us'
 title = 'ej writes now'
 theme = ["github.com/nanxiaobei/hugo-paper"]

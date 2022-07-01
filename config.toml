@@ -1,4 +1,30 @@
 baseURL = 'http://www.ejwritesnow.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'ej writes now'
 theme = ["github.com/nanxiaobei/hugo-paper"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[menu.main]]
+name = "short"
+weight = -4
+url = "/short/"
+[[menu.main]]
+name = "long"
+weight = -3
+url = "/long/"
+[[menu.main]]
+name = "verse"
+weight = -2
+url = "/verse/"
+# [[menu.main]]
+# name = "'real'"
+# weight = -1
+# url = "categories/nonfiction/"
+# [[menu.main]]
+# name = "'fake'"
+# weight = 0
+# url = "categories/fiction/"

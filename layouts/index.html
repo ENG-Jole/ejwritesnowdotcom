@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<!-- Main Title -->
+{{ if .Title }}
+<h1 class="main-title">{{ .Title }}</h1>
+{{ end }}
+
+{{ if .Content }}
+<section class="post-content">{{ .Content }}</section>
+{{ end }}
+
+
+{{ end }}

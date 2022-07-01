@@ -20,11 +20,11 @@ url = "/long/"
 name = "verse"
 weight = -2
 url = "/verse/"
-# [[menu.main]]
-# name = "'real'"
-# weight = -1
-# url = "categories/nonfiction/"
-# [[menu.main]]
-# name = "'fake'"
-# weight = 0
-# url = "categories/fiction/"
+[[menu.main]]
+name = "'real'"
+weight = -1
+url = "/categories/nonfiction/"
+[[menu.main]]
+name = "'fake'"
+weight = 0
+url = "/categories/fiction/"
